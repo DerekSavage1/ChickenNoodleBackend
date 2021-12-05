@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/chickennoodleweb
+    username: postgres
+    password: 5WQlQF9ZEO4QZ1aJRF1w
+    pool-size: 30
