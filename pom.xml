@@ -8,23 +8,16 @@
 		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
-	<packaging>war</packaging>
-
 	<groupId>com.ChewyN</groupId>
 	<artifactId>ChickenNoodleOnline</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ChickenNoodleOnline</name>
 	<description>Chicken Noodle Website</description>
-
 	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.source>16</maven.compiler.source>
 		<maven.compiler.target>16</maven.compiler.target>
-		<finalName>${project.artifactId}</finalName>
 	</properties>
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -88,24 +81,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-spring-boot-starter</artifactId>
-			<version>22.0.0</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-tomcat</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
