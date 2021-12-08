@@ -64,6 +64,7 @@
 			<groupId>com.zaxxer</groupId>
 			<artifactId>HikariCP</artifactId>
 			<version>2.7.9</version>
+<!--			DO NOT UPGRADE heroku can't support files past java 8 -->
 		</dependency>
 
 
