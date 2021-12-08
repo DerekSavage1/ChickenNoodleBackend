@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.UUID;
 
+@CrossOrigin
 @RequestMapping("api/v1/person")
 @RestController
 public class PersonController {

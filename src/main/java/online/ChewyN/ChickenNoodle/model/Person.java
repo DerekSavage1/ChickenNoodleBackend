@@ -15,6 +15,7 @@ public class Person {
     @Id
     private final UUID id;
 
+
     @NotBlank
     private final String name;
 

@@ -3,8 +3,11 @@ package online.ChewyN.ChickenNoodle.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.lang.NonNull;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.UUID;
 
@@ -15,11 +18,18 @@ public class Employee implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
     private UUID id;
+    @NotBlank
     private String name;
+    @NotBlank
     private String email;
+    @NotBlank
     private String jobTitle;
+    @NotBlank
     private String phone;
+    @NotBlank
     private String imageUrl;
+
+    //Json can be set as the word "null"
 
 
     public Employee(@JsonProperty("id") UUID id,
