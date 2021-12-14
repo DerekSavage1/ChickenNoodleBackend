@@ -1,7 +1,6 @@
 package online.ChewyN.ChickenNoodle.dao;
 
 import online.ChewyN.ChickenNoodle.model.Employee;
-import online.ChewyN.ChickenNoodle.model.Person;
 
 import java.util.List;
 import java.util.Optional;

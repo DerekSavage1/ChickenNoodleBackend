@@ -1,12 +1,10 @@
 package online.ChewyN.ChickenNoodle.dao;
 
 import online.ChewyN.ChickenNoodle.model.Employee;
-import online.ChewyN.ChickenNoodle.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.validation.constraints.NotNull;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
