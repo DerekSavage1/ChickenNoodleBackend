@@ -1,16 +1,7 @@
 app:
   datasource:
-    jdbc-url: #url
-    username: #username
-    password: #password
+    #To run this program, fill out database information
+    jdbc-url:
+    username:
+    password:
     pool-size: 30
-
-#ec2-52-204-72-14.compute-1.amazonaws.com
-#Database
-#d5hm5aaouqdi3f
-#User
-#okodwaluspahgz
-#Port
-#5432
-#Password
-#c7d73b118e834b10f444b8db01a4e3ac2b48f5ec297e06adf949b8a773f20e0b
