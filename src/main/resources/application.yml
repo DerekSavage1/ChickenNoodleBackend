@@ -1,7 +1,6 @@
 app:
   datasource:
-    #To run this program, fill out database information
-    jdbc-url:
-    username:
-    password:
+    jdbc-url: jdbc:postgresql://schedule-maker-db.cpu00mg609fb.us-east-1.rds.amazonaws.com:5432/initial_db
+    username: okodwaluspahgz
+    password: c7d73b118e834b10f444b8db01a4e3ac2b48f5ec297e06adf949b8a773f20e0b
     pool-size: 30
